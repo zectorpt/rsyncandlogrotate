@@ -1,5 +1,6 @@
 #!/bin/sh
-# j.almeida@ocado.com
+# josemedeirosdealmeida@gmail.com
+# Jose Almeida
 # Alow developers to see logs in log server
 # Add in crontab: 10 */3 * * * /root/scripts/log_backup.sh
 LOCAL_FOLDER="/users/osr/knapp/lager/inst/osr1/log"
