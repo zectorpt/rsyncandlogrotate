@@ -12,7 +12,7 @@ LOGFILENAME="log_backup_$(date -d "today" +"%Y%m%d%H%M").log"
 touch /var/log/"$LOGFILENAME"
 echo "Mirror started at:" >> /var/log/"$LOGFILENAME"
 echo `date` >> /var/log/"$LOGFILENAME"
-#rsync -auvz  --delete-excluded "$LOCAL_FOLDER" "$REMOTE_USER"@"$REMOTE_HOSTNAME":"$REMOTE_FOLDER" --log-file="/var/log/log_backup.log"
+rsync -auvz  --delete-excluded "$LOCAL_FOLDER" "$REMOTE_USER"@"$REMOTE_HOSTNAME":"$REMOTE_FOLDER" --log-file="/var/log/log_backup.log"
 sleep 1
 echo "Mirror finished at:" >> /var/log/"$LOGFILENAME"
 echo `date` >> /var/log/"$LOGFILENAME"
