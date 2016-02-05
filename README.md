@@ -5,6 +5,8 @@ That's right! Everything in an easy script! <br />
 Pre requirements: <br />
 find rsync <br />
 
+Tested under SUSE Linux Enterprise Server 11 SP1
+
 ----------------------------------------------------
 Usage:
 
